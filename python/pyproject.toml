@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiwhiteboard-video-svg"
+version = "0.1.0"
+description = "Generate lightweight SVG graphics for AIWhiteboard.Video workflows"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "YananLee"}]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Multimedia :: Graphics"]
+
+[project.urls]
+Homepage = "https://aiwhiteboard.video/"
+Source = "https://github.com/YananLee/aiwhiteboard-video-svg/tree/main/python"
+
+[tool.setuptools]
+py-modules = ["aiwhiteboard_video_svg"]
