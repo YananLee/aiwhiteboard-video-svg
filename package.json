@@ -1,0 +1,13 @@
+{
+  "name": "aiwhiteboard-video-svg",
+  "version": "0.1.0",
+  "description": "Create a small animated whiteboard title SVG locally",
+  "type": "module",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["whiteboard", "animation", "svg", "title-card"],
+  "homepage": "https://aiwhiteboard.video/",
+  "repository": { "type": "git", "url": "git+https://github.com/YananLee/aiwhiteboard-video-svg.git" },
+  "license": "MIT"
+}
