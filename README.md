@@ -14,3 +14,11 @@ writeFileSync('title.svg', renderTitle('How it works'));
 ```
 
 The SVG uses browser animation and can be embedded in a web page. Options include `width`, `height`, `ink`, `background`, and `duration`. MIT licensed, no runtime dependencies.
+
+## Additional SVG packages
+
+Small local SVG utilities are maintained in [`python/`](./python/), [`jsr/`](./jsr/), and [`rust/`](./rust/). They do not call the website's export or AI service.
+
+- JSR: [`@yananlee/aiwhiteboard-video-svg`](https://jsr.io/@yananlee/aiwhiteboard-video-svg)
+- Rust: [`aiwhiteboard-video-svg`](https://crates.io/crates/aiwhiteboard-video-svg)
+- Python: `aiwhiteboard-video-svg` source and built distributions are ready in `python/`; PyPI upload is pending an account publishing credential.
