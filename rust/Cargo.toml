@@ -1,0 +1,14 @@
+[package]
+name = "aiwhiteboard-video-svg"
+version = "0.1.0"
+edition = "2021"
+description = "Generate lightweight SVG graphics for AIWhiteboard.Video workflows"
+license = "MIT"
+homepage = "https://aiwhiteboard.video/"
+repository = "https://github.com/YananLee/aiwhiteboard-video-svg"
+readme = "README.md"
+keywords = ["svg", "graphics", "animation"]
+categories = ["graphics", "visualization"]
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE"]
+
+[dependencies]
