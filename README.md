@@ -21,4 +21,4 @@ Small local SVG utilities are maintained in [`python/`](./python/), [`jsr/`](./j
 
 - JSR: [`@yananlee/aiwhiteboard-video-svg`](https://jsr.io/@yananlee/aiwhiteboard-video-svg)
 - Rust: [`aiwhiteboard-video-svg`](https://crates.io/crates/aiwhiteboard-video-svg)
-- Python: `aiwhiteboard-video-svg` source and built distributions are ready in `python/`; PyPI upload is pending an account publishing credential.
+- Python: [`aiwhiteboard-video-svg`](https://pypi.org/project/aiwhiteboard-video-svg/0.1.0/) is published; source is in [`python/`](./python/).
